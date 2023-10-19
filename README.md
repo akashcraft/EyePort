@@ -79,9 +79,6 @@ Thanks!
 livedata.json Structure Help
 https://www.researchgate.net/publication/318207515_Data_Conversion_Tool_For_Tobii_Pro_Glasses_2_Live_Data_Files_From_json_to_txt
 
-Wulff-Abramsson, Andreas. (2016). Data Conversion Tool For Tobii Pro Glasses 2 Live Data Files From .json to .txt. 
-10.13140/RG.2.2.26895.28321. 
-
 Converting 2D gaze data into 3D scene
 https://academic.oup.com/jcde/article/7/2/228/5813739#202866113
 
