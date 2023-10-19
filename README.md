@@ -67,7 +67,7 @@ The unrestrained motion (where user can freely move around along with rotating h
 
 ## Who can use this?
 You can download and edit the source code files. EyePort is not to be resold for any commercial purposes.
-Should you wish to publish this in with your project or socials, please provide appropriate credits.  
+Should you wish to publish this in your project or socials, please provide appropriate credits.  
 
 You can add this as your references (or description) if you like:
 Source Code: https://github.com/akashcraft/EyePort 
@@ -75,7 +75,7 @@ AkashCraft: [akashcraft.ca](https://akashcraft.ca)
 
 Thanks!
 
-##References
+## References
 livedata.json Structure Help
 https://www.researchgate.net/publication/318207515_Data_Conversion_Tool_For_Tobii_Pro_Glasses_2_Live_Data_Files_From_json_to_txt
 
