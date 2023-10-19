@@ -4,7 +4,28 @@ Software to collect, analyze, and export Eye-Tracking Data. Made for TOBII Pro G
 <img width="795" alt="EyePort" src="https://github.com/akashcraft/EyePort/assets/113077967/4dc4d6e3-5482-46a0-8f7b-78667bd4d46d">
 
 ## Installation
-Download the latest version from [akashcraft.ca](https://akashcraft.ca/eyeport.html) or from the releases section. The User Manual is included with the software.
+Download the latest version from [akashcraft.ca](https://akashcraft.ca/eyeport.html) or from the releases section. Should you wish to run the source code yourself, here are the requirements:
+
+- Python 3.10 (Very Important due to compatibility with some packages) [Get it here](https://www.python.org/downloads/release/python-3100/)
+- CustomTkinter [Get it here](https://github.com/TomSchimansky/CustomTkinter)
+- ImageAI [Get it here](https://github.com/OlafenwaMoses/ImageAI/)
+- Matplotlib 
+- AppOpener
+- Pillow
+- Openpyxl
+- Opencv-python
+  
+```
+pip install customtkinter, matplotlib, AppOpener, Pillow, opencv-python, openpyxl
+```
+or simply use the [requirements.txt](https://github.com/akashcraft/EyePort/files/13035410/requirements.txt)
+```
+pip install -r requirements.txt
+```
+## Important Notes
+You will need to manually install the ImageAI package if you want Image Detection to work. It has a lot of dependencies depending on if you want CPU/CUDA GPU to do the work and the page gets updates everytime. Hence, I did not include it here. There are three pre-trained models for you to work with in the releases section. Use the link above to get the ImageAI package or simply do not choose it in EyePort Settings.
+
+EyePort stores its configuration data in the Settings.txt which must be located in the same project folder. If this is not possible, EyePort will attempt to re-create the files during the pre-GUI checks. Resources folder contains all the GUI elements and this folder CANNOT be deleted. EyePort will not load the GUI in that case.
 
 ## Collecting Data
 EyePort is designed for the TOBII Pro Glasses 2. The unofficial API for connecting the glasses can be found [here](https://github.com/ddetommaso/TobiiGlassesPyController) (@detommaso). The data collected are in the form of Gaze 2D Coordinates, Gaze 3D Vectors and IMU measurements. They are either streamed or accessed locally from the glass SD Card.
