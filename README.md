@@ -67,10 +67,23 @@ The unrestrained motion (where user can freely move around along with rotating h
 
 ## Who can use this?
 You can download and edit the source code files. EyePort is not to be resold for any commercial purposes.
-Should you wish to publish this in your socials, please provide appropriate credits.  
+Should you wish to publish this in with your project or socials, please provide appropriate credits.  
 
-You can add this as your description if you like:
+You can add this as your references (or description) if you like:
 Source Code: https://github.com/akashcraft/EyePort 
 AkashCraft: [akashcraft.ca](https://akashcraft.ca)  
 
 Thanks!
+
+##References
+livedata.json Structure Help
+https://www.researchgate.net/publication/318207515_Data_Conversion_Tool_For_Tobii_Pro_Glasses_2_Live_Data_Files_From_json_to_txt
+
+Wulff-Abramsson, Andreas. (2016). Data Conversion Tool For Tobii Pro Glasses 2 Live Data Files From .json to .txt. 
+10.13140/RG.2.2.26895.28321. 
+
+Converting 2D gaze data into 3D scene
+https://academic.oup.com/jcde/article/7/2/228/5813739#202866113
+
+Davide De Tommaso and Agnieszka Wykowska. 2019. TobiiGlassesPySuite: An open-source suite for using the Tobii Pro Glasses 2 in eye-tracking studies. In 2019 Symposium on Eye Tracking Research and Applications (ETRA ’19), June 25–28, 2019, Denver , CO, USA. ACM, New York, NY, USA, 5 pages.
+https://doi.org/10.1145/3314111.3319828
