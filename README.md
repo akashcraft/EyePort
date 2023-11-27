@@ -7,6 +7,7 @@ Software to collect, analyze, and export Eye-Tracking Data. Made for TOBII Pro G
 Download the latest version from [akashcraft.ca](https://akashcraft.ca/eyeport.html) or from the releases section. Should you wish to run the source code yourself, Run the **EyePort GUI.py** file. Here are the requirements:
 
 - Python 3.10 (Very Important due to compatibility with some packages) [Get it here](https://www.python.org/downloads/release/python-3100/)
+- tobiiglassesctrl (Unofficial API [@detommaso](https://github.com/ddetommaso/TobiiGlassesPyController))
 - CustomTkinter [Get it here](https://github.com/TomSchimansky/CustomTkinter)
 - ImageAI [Get it here](https://github.com/OlafenwaMoses/ImageAI/)
 - Matplotlib 
@@ -16,7 +17,7 @@ Download the latest version from [akashcraft.ca](https://akashcraft.ca/eyeport.h
 - Opencv-python
   
 ```
-pip install customtkinter, matplotlib, AppOpener, Pillow, opencv-python, openpyxl
+pip install customtkinter, matplotlib, AppOpener, Pillow, opencv-python, openpyxl, tobiiglassesctrl
 ```
 or simply use the [requirements.txt](https://github.com/akashcraft/EyePort/files/13035410/requirements.txt)
 ```
