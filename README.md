@@ -1,4 +1,4 @@
-# EyePort
+[requirements.txt](https://github.com/akashcraft/EyePort/files/13468506/requirements.txt)# EyePort
 Software to collect, analyze, and export Eye-Tracking Data. Made for TOBII Pro Glasses 2.
 
 <img width="795" alt="EyePort" src="https://github.com/akashcraft/EyePort/assets/113077967/4dc4d6e3-5482-46a0-8f7b-78667bd4d46d">
@@ -19,7 +19,8 @@ Download the latest version from [akashcraft.ca](https://akashcraft.ca/eyeport.h
 ```
 pip install customtkinter, matplotlib, AppOpener, Pillow, opencv-python, openpyxl, tobiiglassesctrl
 ```
-or simply use the [requirements.txt](https://github.com/akashcraft/EyePort/files/13035410/requirements.txt)
+or simply use the [requirements.txt](https://github.com/akashcraft/EyePort/files/13468507/requirements.txt)
+
 ```
 pip install -r requirements.txt
 ```
