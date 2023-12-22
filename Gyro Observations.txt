@@ -1,7 +1,0 @@
-Gyro Observations
-X Axis negative is looking UP
-X Axis positive is looking DOWN
-Y Axis negative is looking RIGHT
-Y Axis positive is looking LEFT
-Z Axis negative is tilting LEFT
-Z Axis positive is tilting RIGHT
