@@ -28,7 +28,9 @@ pip install customtkinter, matplotlib, AppOpener, Pillow, opencv-python, openpyx
 
 ## Important Notes
 You will need to manually install the ImageAI package if you want Image Detection to work. It has a lot of dependencies depending on if you want CPU/CUDA GPU to do the work and the site gets updates regularly. Hence, I did not include it here. There are two pre-trained models for you to work with in the releases section. Use the link above to get the ImageAI package or simply do not choose it in EyePort Settings.
+
 EyePort comes in two versions. Lite Version does not contain Image Detection while Full Version does. EyePort makes a distinguishes this on the interface depending on which mode is being used.
+
 EyePort stores its configuration data in the Settings.txt which must be located in the same project folder. If this is not possible, EyePort will attempt to re-create the files during the pre-GUI checks. Resources folder contains all the GUI elements and this folder **must not** be deleted. EyePort will not load the GUI in that case.
 
 ## Collecting Data
