@@ -58,7 +58,7 @@ The official API for connecting the glasses can be found [here](https://github.c
 
 
 ## Analyzing Data
-Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyePort can quickly determine Areas of Interest (AOIs). The detections are then cropped into smaller squares of images (size can be adjusted by user) and then matched against each other to uniquely identify common or similar looking objects. Matrix calculation and Single integration calculations were dropped since EyePort V3.0.0.
+Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyePort can quickly determine Areas of Interest (AOIs). The detections are then cropped into smaller squares of images (size can be adjusted by user) and then matched against each other to uniquely identify common or similar looking objects (done using image_similarity_measures). Matrix calculation and Single integration calculations were dropped since EyePort V3.0.0.
 
 The detections can be identified using an pre-trained ImageAI model. For this identification, the YOLO (You look only once) algorithm was used. Details about this algorithm can be found [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort can detect General Objects, Ships and Icebergs, or VISTA Diesel Engine.
 
@@ -76,7 +76,7 @@ Some limitations include:
 - Needs Lighting and 500+ samples for Good Image Detection
 - Only works with TOBII Pro Glasses 3
 
-The unrestrained motion (where user can freely move around along with rotating head) limitation was overcome in later builds of EyePort. This was possible because IMU sensor were no longer the primary source of tracking.
+The unrestrained motion (where user can freely move around along with rotating head) limitation was overcome in later builds of EyePort. This was possible because IMU sensor data was no longer the primary source of tracking.
 
 ## Who can use this?
 You are free to download and edit the source code files however you like. But, EyePort is not to be resold for any commercial purpose(s).
