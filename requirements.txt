@@ -1,0 +1,10 @@
+customtkinter
+g3pylib
+matplotlib
+AppOpener
+Pillow
+opencv-python
+openpyxl
+image_similarity_measures
+pyfftw
+tkVideoPlayer
