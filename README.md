@@ -79,12 +79,12 @@ Some limitations include:
 The unrestrained motion (where user can freely move around along with rotating head) limitation was overcome in later builds of EyePort. This was possible because IMU sensor were no longer the primary source of tracking.
 
 ## Who can use this?
-You can download and edit the source code files however you like. However, EyePort is not to be resold for any commercial purpose(s).
-Should you wish to publish this in your project or socials, please provide appropriate credits.  
+You are free to download and edit the source code files however you like. But, EyePort is not to be resold for any commercial purpose(s).
+Should you wish to publish this in your project or socials, please provide appropriate credits.
 
 You can add this as your references (or description) if you like:
 
-Source Code: https://github.com/akashcraft/EyePort 
+Source Code: https://github.com/akashcraft/EyePort<br>
 Website: [akashcraft.ca](https://akashcraft.ca)
 
 Thanks!
