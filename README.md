@@ -1,6 +1,6 @@
 Software to collect, analyze, and export Eye-Tracking Data from TOBII Pro Glasses 3.
 
-<img width="795" alt="EyePort" src="https://github.com/akashcraft/EyePort/assets/113077967/8affdd2f-cd01-48b8-8563-96bb8061ab81">
+<img width="600" alt="EyePort" src="https://github.com/akashcraft/EyePort/assets/113077967/8affdd2f-cd01-48b8-8563-96bb8061ab81">
 
 ## Installation
 Download the latest version from [akashcraft.ca](https://akashcraft.ca/eyeport.html) or from the releases section. Should you wish to run the source code yourself, Run the **EyePort GUI.py** file. Here are the requirements:
@@ -35,9 +35,9 @@ EyePort comes in two versions. Lite Version does not contain Image Detection whi
 EyePort stores its configuration data in the Settings.txt which must be located in the same project folder. If this is not possible, EyePort will attempt to re-create the files during the pre-GUI checks. Resources folder contains all the GUI elements and this folder **must not** be deleted. EyePort will not load the GUI in that case.
 
 ## Collecting Data
-EyePort is designed for the TOBII Pro Glasses 3. The official API for connecting the glasses can be found [here](https://github.com/tobiipro/g3pylib). The data collected are in the form of Gaze 2D Coordinates, Gaze 3D Vectors, and IMU measurements which are accessed locally from the glass SD Card.
+EyePort is designed for the TOBII Pro Glasses 3. The official API for connecting the glasses can be found [here](https://github.com/tobiipro/g3pylib). The data collected are in the form of Gaze 2D Coordinates, Gaze 3D Vectors, and IMU measurements which are accessed locally from the glass SD Card. You can connect and record from the glasses directly from EyePort. Should you wish to stream and download the recording folder from the glasses, use TOBII Glasses Controller from [here](https://connect.tobii.com/s/g3-downloads?language=en_US). It essentially does the same thing but with added convenience of not removing the SD Card from the glasses everytime.
 
-![image](https://github.com/akashcraft/EyePort/assets/113077967/73a34fd2-1718-49dc-a6a5-4273f656c2e6)
+<img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/2489f63a-ee72-4dd1-a351-f843d6b640fa">
 
 EyePort then creates a Excel file to hold these data. Some cases, this extraction is all you need. But EyePort can do a lot more; these are discussed in the next section.
 
@@ -46,12 +46,16 @@ Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyeP
 
 The detections can be identified using an pre-trained ImageAI model. For this identification, the YOLO (You look only once) algorithm was used. Details about this algorithm can be found [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort can detect General Objects, Ships and Icebergs, or VISTA Diesel Engine.
 
-To learn how EyePort works in detail (including AOI, UAOI Detection, Head Orientation calculations and other features). Please read the detailed [explanation document](https://github.com/akashcraft/EyePort/files/13757398/EyePort.Algorithm.Explanation.pdf).
+To learn how EyePort works in detail, please read the detailed [explanation](https://github.com/akashcraft/EyePort/files/13757398/EyePort.Algorithm.Explanation.pdf).
+
+<img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/ec17f438-9819-41d5-9717-bc8a77d6816e">
 
 ## Exporting Data
 EyePort V2.0.0 was mainly catered to serving DynaFRAM which is a FRAM Model Visualizer. To learn more about FRAM and FRAM Modelling, click [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort creates partial input files containing eye-tracking data for DynaFRAM. You can download DynaFRAM from [here](https://www.engr.mun.ca/~d.smith/dynafram.html).
 
 EyePort V3.0.0 focuses on expanding the applications of eye-tracking. It can be used as an safety assessment tool and an instructor aid for the maritime industry.
+
+<img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/7de91922-1e9b-4e6c-9ca6-fdeba323b48a">
 
 ## Limitations
 Some limitations include:
