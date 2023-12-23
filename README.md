@@ -42,15 +42,7 @@ EyePort is designed for the TOBII Pro Glasses 3. The official API for connecting
 EyePort then creates a Excel file to hold these data. Some cases, this extraction is all you need. But EyePort can do a lot more; these are discussed in the next section.
 
 ## Analyzing Data
-Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyePort can quickly determine Areas of Interest (AOIs). The detections are then cropped into smaller squares of images (size can be adjusted by user) and then matched against each other to uniquely identify common or similar looking objects.
-
-<img width="700" alt="EyePort" src="https://github.com/akashcraft/EyePort/assets/113077967/c44d3ee5-0f48-4346-80a0-4ff3f275f6c8">
-
-Matrix calculation and Single integration calculations were dropped since EyePort V3.0.0 due to the following reasons.
--	More Calculations (Potentially slowing down user systems)
--	Higher Chances of Error (If gyroscope calibration was not done correctly)
--	New Glasses had a worse Gyroscope (values starting in the 7-10 degrees/second range even if the glasses are stationary)
--	Difficulty Filtering Errors and Calibrating the Gyroscope
+Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyePort can quickly determine Areas of Interest (AOIs). The detections are then cropped into smaller squares of images (size can be adjusted by user) and then matched against each other to uniquely identify common or similar looking objects. Matrix calculation and Single integration calculations were dropped since EyePort V3.0.0.
 
 The detections can be identified using an pre-trained ImageAI model. For this identification, the YOLO (You look only once) algorithm was used. Details about this algorithm can be found [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort can detect General Objects, Ships and Icebergs, or VISTA Diesel Engine.
 
