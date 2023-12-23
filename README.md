@@ -49,7 +49,7 @@ EyePort comes in two versions. Lite Version does not contain Image Detection whi
 
 EyePort stores its configuration data in the Settings.txt which must be located in the same project folder. If this is not possible, EyePort will attempt to re-create the files during the pre-GUI checks. Resources folder contains all the GUI elements and this folder **must not** be deleted. EyePort will not load the GUI in that case.
 
-## Collecting Data
+## Recording Data
 EyePort is designed for the TOBII Pro Glasses 3. You can connect and record from the glasses from EyePort directly. Should you wish to stream and download the recording folder from the glasses, use TOBII Glasses Controller from [here](https://connect.tobii.com/s/g3-downloads?language=en_US). It essentially does the same thing but with the added convenience of not removing the SD Card from the glasses everytime.
 
 The official API for connecting the glasses can be found [here](https://github.com/tobiipro/g3pylib). The data collected are in the form of Gaze 2D Coordinates, Gaze 3D Vectors, and IMU measurements which are accessed locally from the glass SD Card. EyePort then creates a Excel file to hold these data. Some cases, this extraction is all you need. But EyePort can do a lot more; these are discussed in the next section.
