@@ -62,7 +62,7 @@ Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyeP
 
 The detections can be identified using an pre-trained ImageAI model. For this identification, the YOLO (You look only once) algorithm was used. Details about this algorithm can be found [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort can detect General Objects, Ships and Icebergs, or VISTA Diesel Engine.
 
-<img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/ec17f438-9819-41d5-9717-bc8a77d6816e">
+<img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/ec17f438-9819-41d5-9717-bc8a77d6816e"><br>
 
 EyePort also calculates Head Orientation Times, Radar Violations, No-Go Zone Violations, Dead Man Switch Trigger. These come from glass data of AOI analysis. The data can be viewed in graphs and tables. It can also be exported in various formats discussed in the next section. Detailed explanation can be found [here](https://github.com/akashcraft/EyePort/files/13757398/EyePort.Algorithm.Explanation.pdf).
 
