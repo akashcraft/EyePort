@@ -51,7 +51,7 @@ To learn how EyePort works in detail (including Head Orientation calculations an
 ## Exporting Data
 EyePort V2.0.0 was mainly catered to serving DynaFRAM which is a FRAM Model Visualizer. To learn more about FRAM and FRAM Modelling, click [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort creates partial input files containing eye-tracking data for DynaFRAM. You can download DynaFRAM from [here](https://www.engr.mun.ca/~d.smith/dynafram.html).
 
-EyePort V3.0.0 focuses on expanding the applications of eye-tracking. It will be used as a safety assessment tool and an instructor aid for the maritime industry.
+EyePort V3.0.0 focuses on expanding the applications of eye-tracking. It can be used as an safety assessment tool and an instructor aid for the maritime industry.
 
 ## Limitations
 Some limitations include:
