@@ -64,10 +64,14 @@ The detections can be identified using an pre-trained ImageAI model. For this id
 
 <img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/ec17f438-9819-41d5-9717-bc8a77d6816e">
 
+EyePort also calculates Head Orientation Times, Radar Violations, No-Go Zone Violations, Dead Man Switch Trigger. These come from glass data of AOI analysis. The data can be viewed in graphs and tables. It can also be exported in various formats discussed in the next section. Detailed explanation can be found [here](https://github.com/akashcraft/EyePort/files/13757398/EyePort.Algorithm.Explanation.pdf).
+
+<img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/038e709b-c9d9-4474-9c17-d641dd621fe0">
+
 ## Exporting Data
 EyePort V2.0.0 was mainly catered to serving DynaFRAM which is a FRAM Model Visualizer. To learn more about FRAM and FRAM Modelling, click [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort creates partial input files containing eye-tracking data for DynaFRAM. You can download DynaFRAM from [here](https://www.engr.mun.ca/~d.smith/dynafram.html).
 
-EyePort V3.0.0 focuses on expanding the applications of eye-tracking. It can be used as an safety assessment tool and an instructor aid for the maritime industry.
+EyePort V3.0.0 focuses on expanding the applications of eye-tracking. It can be used as an safety assessment tool and an instructor aid for the maritime industry. EyePort exports in XLSX, CSV, XMFV formats.
 
 <img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/7de91922-1e9b-4e6c-9ca6-fdeba323b48a">
 
