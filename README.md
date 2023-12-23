@@ -85,8 +85,3 @@ https://www.researchgate.net/publication/318207515_Data_Conversion_Tool_For_Tobi
 
 TOBII g3pylib Documentation
 https://tobiipro.github.io/g3pylib/g3pylib.html
-
-https://academic.oup.com/jcde/article/7/2/228/5813739#202866113
-
-Davide De Tommaso and Agnieszka Wykowska. 2019. TobiiGlassesPySuite: An open-source suite for using the Tobii Pro Glasses 2 in eye-tracking studies. In 2019 Symposium on Eye Tracking Research and Applications (ETRA ’19), June 25–28, 2019, Denver , CO, USA. ACM, New York, NY, USA, 5 pages.
-https://doi.org/10.1145/3314111.3319828
