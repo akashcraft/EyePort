@@ -35,15 +35,18 @@ EyePort comes in two versions. Lite Version does not contain Image Detection whi
 EyePort stores its configuration data in the Settings.txt which must be located in the same project folder. If this is not possible, EyePort will attempt to re-create the files during the pre-GUI checks. Resources folder contains all the GUI elements and this folder **must not** be deleted. EyePort will not load the GUI in that case.
 
 ## Collecting Data
-EyePort is designed for the TOBII Pro Glasses 3. The official API for connecting the glasses can be found [here](https://github.com/tobiipro/g3pylib). The data collected are in the form of Gaze 2D Coordinates, Gaze 3D Vectors and IMU measurements. They are accessed locally from the glass SD Card.
+EyePort is designed for the TOBII Pro Glasses 3. The official API for connecting the glasses can be found [here](https://github.com/tobiipro/g3pylib). The data collected are in the form of Gaze 2D Coordinates, Gaze 3D Vectors, and IMU measurements. They are accessed locally from the glass SD Card.
 
 ![image](https://github.com/akashcraft/EyePort/assets/113077967/73a34fd2-1718-49dc-a6a5-4273f656c2e6)
 
 EyePort then creates a Excel file to hold these data. Some cases, this extraction is all you need. But EyePort can do a lot more; these are discussed in the next section.
 
 ## Analyzing Data
-Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyePort can quickly determine Areas of Interest (AOIs). The detections are then cropped into smaller squares of images (size can be adjusted by user) and then matched against each other to uniquely identify common or similar looking objects. Matrix calculation and Single integration calculations were dropped since EyePort V3.0.0 due to the following reasons.
+Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyePort can quickly determine Areas of Interest (AOIs). The detections are then cropped into smaller squares of images (size can be adjusted by user) and then matched against each other to uniquely identify common or similar looking objects.
 
+<img width="700" alt="EyePort" src="https://github.com/akashcraft/EyePort/assets/113077967/c44d3ee5-0f48-4346-80a0-4ff3f275f6c8">
+
+Matrix calculation and Single integration calculations were dropped since EyePort V3.0.0 due to the following reasons.
 -	More Calculations (Potentially slowing down user systems)
 -	Higher Chances of Error (If gyroscope calibration was not done correctly)
 -	New Glasses had a worse Gyroscope (values starting in the 7-10 degrees/second range even if the glasses are stationary)
@@ -55,8 +58,6 @@ To learn how EyePort works in detail (including Head Orientation calculations an
 
 ## Exporting Data
 EyePort V2.0.0 was mainly catered to serving DynaFRAM which is a FRAM Model Visualizer. To learn more about FRAM and FRAM Modelling, click [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort creates partial input files containing eye-tracking data for DynaFRAM. You can download DynaFRAM from [here](https://www.engr.mun.ca/~d.smith/dynafram.html).
-
-https://github.com/akashcraft/EyePort/assets/113077967/d466440f-bf52-4a4c-bcc7-7f9d9b390677
 
 EyePort V3.0.0 focuses on expanding the applications of eye-tracking. It will be used as a safety assessment tool and an instructor aid for the maritime industry.
 
@@ -72,6 +73,7 @@ You can download and edit the source code files however you like. However, EyePo
 Should you wish to publish this in your project or socials, please provide appropriate credits.  
 
 You can add this as your references (or description) if you like:
+
 Source Code: https://github.com/akashcraft/EyePort 
 Website: [akashcraft.ca](https://akashcraft.ca)
 
