@@ -45,14 +45,14 @@ pip install customtkinter, g3pylib, matplotlib, AppOpener, Pillow, opencv-python
 ```
 
 ## Important Notes
-EyePort comes in two versions. Lite Version does not contain Image Detection while Full Version does. EyePort makes a distinction between the two versions on the interface. You will need to manually install the Object Detection Module (regular local install) or ImageAI package (systemwide development environment) if you want Image Detection to work. It has a lot of dependencies depending on if you want CPU/CUDA GPU to do the work and the site gets updates regularly. Hence, I did not include it here. There are two pre-trained models for you to work with in the releases section.
+EyePort comes in two versions. Lite Version does not contain Image Detection while Full Version does. EyePort makes a distinction between the two versions on the interface. You will need to manually install the Object Detection Module (regular local install) or [ImageAI package](https://github.com/OlafenwaMoses/ImageAI/) (systemwide development environment) if you want Image Detection to work. It has a lot of dependencies based on CPU/CUDA processing.
 
 EyePort stores its configuration data in the Settings.txt which must be located in the same project folder. If this is not possible, EyePort will attempt to re-create the files during the pre-GUI checks. Resources folder contains all the GUI elements and this folder **must not** be deleted. EyePort will not load the GUI in that case.
 
 ## Collecting Data
-EyePort is designed for the TOBII Pro Glasses 3. The official API for connecting the glasses can be found [here](https://github.com/tobiipro/g3pylib). The data collected are in the form of Gaze 2D Coordinates, Gaze 3D Vectors, and IMU measurements which are accessed locally from the glass SD Card. EyePort then creates a Excel file to hold these data. Some cases, this extraction is all you need. But EyePort can do a lot more; these are discussed in the next section.
+EyePort is designed for the TOBII Pro Glasses 3. You can connect and record from the glasses from EyePort directly. Should you wish to stream and download the recording folder from the glasses, use TOBII Glasses Controller from [here](https://connect.tobii.com/s/g3-downloads?language=en_US). It essentially does the same thing but with the added convenience of not removing the SD Card from the glasses everytime.
 
-You can connect and record from the glasses from EyePort directly. Should you wish to stream and download the recording folder from the glasses, use TOBII Glasses Controller from [here](https://connect.tobii.com/s/g3-downloads?language=en_US). It essentially does the same thing but with the added convenience of not removing the SD Card from the glasses everytime.
+The official API for connecting the glasses can be found [here](https://github.com/tobiipro/g3pylib). The data collected are in the form of Gaze 2D Coordinates, Gaze 3D Vectors, and IMU measurements which are accessed locally from the glass SD Card. EyePort then creates a Excel file to hold these data. Some cases, this extraction is all you need. But EyePort can do a lot more; these are discussed in the next section.
 
 <img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/2489f63a-ee72-4dd1-a351-f843d6b640fa">
 
@@ -90,8 +90,8 @@ Website: [akashcraft.ca](https://akashcraft.ca)
 Thanks!
 
 ## References
-livedata.json Structure Help
+livedata.json Structure Help<br>
 https://www.researchgate.net/publication/318207515_Data_Conversion_Tool_For_Tobii_Pro_Glasses_2_Live_Data_Files_From_json_to_txt
 
-TOBII g3pylib Documentation
+TOBII g3pylib Documentation<br>
 https://tobiipro.github.io/g3pylib/g3pylib.html
