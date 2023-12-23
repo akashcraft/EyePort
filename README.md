@@ -2,12 +2,16 @@ Software to collect, analyze, and export Eye-Tracking Data from TOBII Pro Glasse
 
 <img width="600" alt="EyePort" src="https://github.com/akashcraft/EyePort/assets/113077967/8affdd2f-cd01-48b8-8563-96bb8061ab81">
 
+## User Manual
+Please read the User Manual which is embedded in the application or alternatively download from [here](https://github.com/akashcraft/EyePort/files/13757497/EyePort.User.Manual.pdf).<br>
+To learn how EyePort works in detail, read the detailed explanation from [here](https://github.com/akashcraft/EyePort/files/13757398/EyePort.Algorithm.Explanation.pdf).
+
 ## Installation
 Download the latest version from [akashcraft.ca](https://akashcraft.ca/eyeport.html) or from the releases section. Should you wish to run the source code yourself, Run the **EyePort GUI.py** file. Here are the requirements:
 
 - Python 3.10 (Very Important due to compatibility with some packages) [Get it here](https://www.python.org/downloads/release/python-3100/)
 - customtkinter [Get it here](https://github.com/TomSchimansky/CustomTkinter)
-- ImageAI [Get it here](https://github.com/OlafenwaMoses/ImageAI/)
+- ImageAI (For Object Detection to work) [Get it here](https://github.com/OlafenwaMoses/ImageAI/)
 - g3pylib (Glasses API) [Get it here](https://github.com/tobiipro/g3pylib)
 - matplotlib 
 - AppOpener
@@ -28,9 +32,7 @@ pip install customtkinter, g3pylib, matplotlib, AppOpener, Pillow, opencv-python
 ```
 
 ## Important Notes
-You will need to manually install the ImageAI package if you want Image Detection to work. It has a lot of dependencies depending on if you want CPU/CUDA GPU to do the work and the site gets updates regularly. Hence, I did not include it here. There are two pre-trained models for you to work with in the releases section. Use the link above to get the ImageAI package or simply do not choose it in EyePort Settings.
-
-EyePort comes in two versions. Lite Version does not contain Image Detection while Full Version does. EyePort makes a distinction between the two versions on the interface.
+EyePort comes in two versions. Lite Version does not contain Image Detection while Full Version does. EyePort makes a distinction between the two versions on the interface. You will need to manually install the Object Detection Module (regular local install) or ImageAI package (systemwide development environment) if you want Image Detection to work. It has a lot of dependencies depending on if you want CPU/CUDA GPU to do the work and the site gets updates regularly. Hence, I did not include it here. There are two pre-trained models for you to work with in the releases section.
 
 EyePort stores its configuration data in the Settings.txt which must be located in the same project folder. If this is not possible, EyePort will attempt to re-create the files during the pre-GUI checks. Resources folder contains all the GUI elements and this folder **must not** be deleted. EyePort will not load the GUI in that case.
 
@@ -45,8 +47,6 @@ EyePort then creates a Excel file to hold these data. Some cases, this extractio
 Using a simple timing and tolerance algorithm based on Gaze 2D Coordinates, EyePort can quickly determine Areas of Interest (AOIs). The detections are then cropped into smaller squares of images (size can be adjusted by user) and then matched against each other to uniquely identify common or similar looking objects. Matrix calculation and Single integration calculations were dropped since EyePort V3.0.0.
 
 The detections can be identified using an pre-trained ImageAI model. For this identification, the YOLO (You look only once) algorithm was used. Details about this algorithm can be found [here](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html). EyePort can detect General Objects, Ships and Icebergs, or VISTA Diesel Engine.
-
-To learn how EyePort works in detail, please read the detailed [explanation](https://github.com/akashcraft/EyePort/files/13757398/EyePort.Algorithm.Explanation.pdf).
 
 <img width="600" src="https://github.com/akashcraft/EyePort/assets/113077967/ec17f438-9819-41d5-9717-bc8a77d6816e">
 
