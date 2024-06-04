@@ -20,7 +20,7 @@ To learn how EyePort works in detail, read the detailed explanation from [here](
 - Better Visuals and Progress Bars
 
 ## Installation
-Download the latest lite version from [akashcraft.ca](https://akashcraft.ca/eyeport.html) or the full version from the releases section. Should you wish to run the source code yourself, Run the **EyePort GUI.py** file. Here are the requirements:
+Download the latest lite version from [akashcraft.ca](https://akashcraft.ca/eyeport.php) or the full version from the releases section. Should you wish to run the source code yourself, Run the **EyePort GUI.py** file. Here are the requirements:
 
 - Python 3.10 (Very Important due to compatibility with some packages) [Get it here](https://www.python.org/downloads/release/python-3100/)
 - customtkinter [Get it here](https://github.com/TomSchimansky/CustomTkinter)
