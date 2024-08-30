@@ -91,11 +91,14 @@ You can add this as your references (or description) if you like:
 Source Code: https://github.com/akashcraft/EyePort<br>
 Website: [akashcraft.ca](https://akashcraft.ca)
 
-Thanks!
+## Donation
+If you like my work and would like to donate me, I would really appreciate it!<br><br>
+[<img align="centre" src="https://github.com/user-attachments/assets/2ebd1ec4-0b2c-476d-98d1-267a08e9cd16">](https://www.paypal.com/donate/?business=YFEQJ9D5KR9PW&no_recurring=0&item_name=Thank+you+for+considering+to+donate+me%21+This+way+I+can+keep+developing+more+applications+for+you.&currency_code=CAD)
 
 ## References
-livedata.json Structure Help<br>
-https://www.researchgate.net/publication/318207515_Data_Conversion_Tool_For_Tobii_Pro_Glasses_2_Live_Data_Files_From_json_to_txt
+livedata.json Structure Help[^1]
+<br><br>
+TOBII g3pylib Documentation[^2]
 
-TOBII g3pylib Documentation<br>
-https://tobiipro.github.io/g3pylib/g3pylib.html
+[^1]: Retrieved from https://www.researchgate.net/publication/318207515_Data_Conversion_Tool_For_Tobii_Pro_Glasses_2_Live_Data_Files_From_json_to_txt
+[^2]: Retrieved from https://tobiipro.github.io/g3pylib/g3pylib.html
